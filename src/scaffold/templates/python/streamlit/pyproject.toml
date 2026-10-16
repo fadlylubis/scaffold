@@ -1,0 +1,11 @@
+[project]
+name = "__PROJECT__"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["streamlit>=1.50", "pandas>=2.2"]
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.ruff]
+line-length = 100
